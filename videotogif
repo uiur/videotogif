@@ -1,7 +1,4 @@
 #!/bin/bash
-# Usage:
-#   videotogif source.mp4 > out.gif
-#   cat source.mp4 | videotogif > out.gif
 input="$1"
 test "$input" || input="pipe:0"
 
